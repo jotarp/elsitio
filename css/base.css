@@ -95,12 +95,13 @@ a:focus {
 }
 
 .message {
+	display: none;
 	background: var(--color-text);
 	color: var(--color-bg);
-	padding: 1rem;
+	padding: 0.5rem;
 	position: fixed;
 	top: 0;
-	width: 100%;
+	width: 50%;
 	z-index: 10000;
 	text-align: center;
 }
@@ -217,10 +218,11 @@ a:focus {
 		margin: 0;
 	}
 	.frame__tagline {
+		display: none;
 		margin: 0 0 0 1rem;
 		padding: 0 0 0 1rem;
 		opacity: 0.6;
-		display: block;
+		/*display: block;*/
 	}
 	.frame__github {
 		grid-area: github;
